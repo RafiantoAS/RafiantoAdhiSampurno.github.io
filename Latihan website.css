@@ -1,0 +1,268 @@
+/* Latihan website.css */
+
+.body {
+    margin: 0; /* Menghapus margin default body */
+    overflow-y: scroll; /* Membuat scrollbar vertikal */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Menjadikan tata letak menjadi kolom */
+    align-items: center;
+}
+
+.div1 {
+    height: 598PX; /* Set tinggi dari div1 */
+    width: 101.3%; /* Set lebar 100% */
+    margin-top: -20px;
+    margin-bottom: 5px;
+   
+
+    background-image: url('https://storage.googleapis.com/go-merchant-production.appspot.com/uploads/2022/03/a50b5a97cd9ee91826449bc79f51ace0_fe9477fa96bd2cbfd6da352cca822dcd_compressed.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.div2 {
+    height: 500px; /* Set tinggi dari div2 */
+    width: 100% /* Set lebar 100% */
+    background-image: url('https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703548800&semt=ais');
+    background-size: cover;
+    background-position: center;
+    margin-top: -200px; /* Mendorong div2 ke atas sedikit */
+}
+
+.text-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Menyesuaikan tinggi teks overlay dengan gambar */
+    color: lightgray;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+}
+
+.div2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Untuk menempatkan di belakang elemen lain di dalam .div2 */
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Mengatur teks di posisi kanan */
+.center {
+    text-align: right;
+}
+
+/* Memposisikan teks di dalam list item di sebelah kanan */
+li.desktop {
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+.frontend{
+        width: 200px; /* Sets the width of the image to 300 pixels */
+        height: 200px; /* Sets the height of the image to 200 pixels */ 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+
+.picture{
+    width: 200px; /* Sets the width of the image to 300 pixels */
+    height: 200px; /* Sets the height of the image to 200 pixels */ 
+    float: left;
+    margin-left: 200px;
+
+}
+
+.capture{
+    width: 200px; /* Sets the width of the image to 300 pixels */
+    height: 200px; /* Sets the height of the image to 200 pixels */ 
+    float: right;
+    margin-right: 200px;
+
+}
+
+.porto{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+.suko{
+    width: 1244px;
+    margin-left: 10px;
+    height: 200px; 
+   
+
+}
+
+.button{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: green;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    width: 1245px;
+    margin-left: 8px;
+    opacity: 0.8;
+
+}
+
+.perkenalan{
+
+    margin-top: 25px;
+    font-size: 20px;
+    display: block;
+    margin-left: 473px;
+     text-align: justify;
+    width:330px
+   
+
+
+}
+
+.buzer{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    text-align: justify;
+    width: 330px
+    
+    
+    
+}
+
+.sasuu{
+    font-size: 20px;
+    margin-right: 130px;
+    float: right;
+    margin-top: -135px;
+    text-align: justify;
+    width: 330px
+    
+    
+}
+
+.wifi{
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ketuk{
+    text-align: center;
+    font-size: 25px;
+}
+
+.poto{
+    height: 170px;
+    width: 170px;
+    display:inline;
+    margin-left:185px;
+ 
+
+}
+
+.namaa{
+    width: 1244px;
+    margin-left: 10px;
+    height: 25px;
+
+}
+
+header{
+    background-color: black;
+}
+
+div > img{
+    width: 100%;
+    height: 200px;
+}
+.nav-main{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left{
+    display: flex;
+    gap: 30px;
+    color: white;
+    padding: 10px;
+    padding-left: 13px;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+    color:white;
+    padding: 10px;
+   
+
+    
+}
+
+
+span > a{
+    color: white;
+    text-decoration: none;
+}
+
+.labell{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.nav-rightt{
+    display: flex;
+    gap: 20px;
+    color:white;
+    padding: 10px;
+    font-size: 13px;
+   
+
+    
+}
+
+.button:hover{
+    opacity: 1;
+    background-color: green;
+}
+
+.arison{
+    opacity: 0.8;
+
+}
+.arison:hover{
+    opacity: 1;
+
+}
+
